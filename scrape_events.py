@@ -1,4 +1,7 @@
 """
+Ben Nathanson
+May 2019
+For the city-scrapers port_authority script:
 Assumptions made in this script:
 1) The port authority will only list events for the current year.
     This is the historical pattern. If this assumption becomes false
