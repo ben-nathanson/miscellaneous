@@ -37,7 +37,7 @@ class PrimeNumberSolverRegressionTester:
         self.test_correctness()
         self.test_boundary_values()
         self.test_fuzz()
-        self.test_knockout_bug
+        self.test_knockout_bug()
 
     def assert_expected_result(self, expected: set, start: int, end: int):
         found: dict = self.solver.find_primes_in_range(start=start, end=end)
